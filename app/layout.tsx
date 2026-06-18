@@ -17,6 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mehdi-hbout-portfolio.vercel.app"),
   title: "Mehdi HBOUT | IT Tech Lead & Automation Consultant",
   description:
     "Workflow automation, BPMN, Camunda, Python, REST APIs and AI-assisted automation.",
@@ -33,6 +34,8 @@ export const metadata: Metadata = {
     title: "Mehdi HBOUT | IT Tech Lead & Automation Consultant",
     description:
       "Workflow automation, BPMN, Camunda, Python, REST APIs and AI-assisted automation.",
+    url: "https://mehdi-hbout-portfolio.vercel.app",
+    siteName: "Mehdi HBOUT Portfolio",
     type: "website",
     locale: "en_US",
     images: ["/opengraph-image.png"],
